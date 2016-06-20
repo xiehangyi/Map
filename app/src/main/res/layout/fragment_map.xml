@@ -1,13 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragment.MapFragment">
+    tools:context="com.xhy.map.MainActivity">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:clickable="true"
+        ></com.baidu.mapapi.map.MapView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_location_on_24dp"
+        android:layout_gravity="right|top"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        />
+
 
 </FrameLayout>

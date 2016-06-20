@@ -36,4 +36,5 @@ dependencies {
     compile files('libs/BaiduLBS_Android.jar')
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:support-v4:23.2.1'
+    compile 'com.ashokvarma.android:bottom-navigation-bar:0.9.5'
 }

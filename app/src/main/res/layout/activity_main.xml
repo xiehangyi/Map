@@ -5,12 +5,21 @@
     android:layout_height="match_parent"
     tools:context="com.xhy.map.MainActivity">
 
-    <com.baidu.mapapi.map.MapView
-        android:id="@+id/mapView"
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clickable="true"
-        ></com.baidu.mapapi.map.MapView>
+        android:layout_above="@+id/bottom_id"
+        android:orientation="vertical"
+        android:id="@+id/ll_root"
+        />
 
+    <com.ashokvarma.bottomnavigation.BottomNavigationBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_id"
+        android:layout_alignParentBottom="true"
+        />
 
 </RelativeLayout>
