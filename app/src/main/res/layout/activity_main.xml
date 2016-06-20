@@ -12,4 +12,5 @@
         android:clickable="true"
         ></com.baidu.mapapi.map.MapView>
 
+
 </RelativeLayout>
